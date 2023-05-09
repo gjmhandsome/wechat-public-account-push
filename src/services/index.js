@@ -369,7 +369,6 @@ export const sendMessage = async (templateId, user, accessToken, params) => {
   const wxTemplateData = {}
   if (Object.prototype.toString.call(params) === '[object Array]') {
     params.map(item => {
-      console.log("item.color", item);
       wxTemplateData[item.name] = {
         value: item.value,
         color: item.color
