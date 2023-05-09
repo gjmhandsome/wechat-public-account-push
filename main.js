@@ -23,7 +23,6 @@ const mainForProd = async () => {
   console.log('---')
   console.log('【数据获取】开始')
   const aggregatedData = await getAggregatedData()
-  console.log("aggregatedData", aggregatedData);
   console.log('【数据获取】结束')
   console.log('---')
 
